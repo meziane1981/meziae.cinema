@@ -1,0 +1,791 @@
+INFO - 2023-05-12 10:55:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-12 11:30:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-12 11:59:22 --> var_dump() expects at least 1 argument, 0 given
+in APPPATH/Controllers/UtilisateurController.php on line 152.
+ 1 APPPATH/Controllers/UtilisateurController.php(152): var_dump()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->store()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-12 12:05:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-12 12:08:02 --> syntax error, unexpected token "echo", expecting "]"
+in APPPATH/Controllers/UtilisateurController.php on line 151.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(892): class_exists()
+ 5 SYSTEMPATH/CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-12 12:11:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-12 12:13:34 --> Undefined variable $data
+in APPPATH/Controllers/UtilisateurController.php on line 159.
+ 1 APPPATH/Controllers/UtilisateurController.php(159): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->store()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-12 12:17:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-12 12:18:15 --> Undefined variable $data
+in APPPATH/Controllers/UtilisateurController.php on line 159.
+ 1 APPPATH/Controllers/UtilisateurController.php(159): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->store()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 12:18:47 --> Undefined variable $data
+in APPPATH/Controllers/UtilisateurController.php on line 154.
+ 1 APPPATH/Controllers/UtilisateurController.php(154): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->store()
+ 3 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 12:40:51 --> syntax error, unexpected string content ") ?>">", expecting ")"
+in APPPATH/Views/utilisateur/create.php on line 11.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/UtilisateurController.php(112): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->create()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 12:41:06 --> syntax error, unexpected string content ") ?>">", expecting ")"
+in APPPATH/Views/utilisateur/create.php on line 11.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/UtilisateurController.php(112): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->create()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-12 12:49:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-12 12:49:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-12 12:49:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-12 12:51:51 --> Unclosed '{' on line 8 does not match ']'
+in APPPATH/Models/UtilisateurModel.php on line 44.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 APPPATH/Controllers/UtilisateurController.php(117): CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->store()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-12 12:53:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-12 12:55:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-12 12:55:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-12 12:56:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-12 12:56:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-12 12:57:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-12 12:59:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-12 13:05:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-12 13:05:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-12 13:06:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-12 13:21:11 --> Invalid file: "form.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/UtilisateurController.php(90): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->insertUser()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 13:21:57 --> Invalid file: "form.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/UtilisateurController.php(90): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->insertUser()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 13:26:00 --> Invalid file: "form.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/UtilisateurController.php(90): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->insertUser()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 13:26:06 --> Invalid file: "form.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/UtilisateurController.php(90): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->insertUser()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 13:29:02 --> Invalid file: "form.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/UtilisateurController.php(90): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->insertUser()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 13:29:05 --> Invalid file: "form.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/UtilisateurController.php(90): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->insertUser()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 13:30:02 --> Invalid file: "form.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/UtilisateurController.php(90): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->insertUser()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 13:30:03 --> Invalid file: "form.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/UtilisateurController.php(90): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->insertUser()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 13:30:57 --> Invalid file: "form.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/UtilisateurController.php(90): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->insertUser()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 13:30:58 --> Invalid file: "form.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/UtilisateurController.php(90): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->insertUser()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 13:30:59 --> Invalid file: "form.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/UtilisateurController.php(90): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->insertUser()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 13:30:59 --> Invalid file: "form.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/UtilisateurController.php(90): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->insertUser()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 13:30:59 --> Invalid file: "form.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/UtilisateurController.php(90): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->insertUser()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 13:30:59 --> Invalid file: "form.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/UtilisateurController.php(90): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->insertUser()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 13:31:00 --> Invalid file: "form.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/UtilisateurController.php(90): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->insertUser()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 13:31:49 --> Invalid file: "form.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/UtilisateurController.php(90): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->insertUser()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 13:31:51 --> Invalid file: "form.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/UtilisateurController.php(90): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->insertUser()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 13:32:13 --> Invalid file: "form.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/UtilisateurController.php(90): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->insertUser()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 13:32:13 --> Invalid file: "form.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/UtilisateurController.php(90): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->insertUser()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 13:32:13 --> Invalid file: "form.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/UtilisateurController.php(90): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->insertUser()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 13:32:13 --> Invalid file: "form.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/UtilisateurController.php(90): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->insertUser()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 13:32:27 --> Invalid file: "form.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/UtilisateurController.php(90): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->insertUser()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 13:32:57 --> Invalid file: "form.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/UtilisateurController.php(90): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->insertUser()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 13:32:59 --> Invalid file: "form.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/UtilisateurController.php(90): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->insertUser()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 13:32:59 --> Invalid file: "form.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/UtilisateurController.php(90): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->insertUser()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 13:33:00 --> Invalid file: "form.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/UtilisateurController.php(90): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->insertUser()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 13:33:00 --> Invalid file: "form.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/UtilisateurController.php(90): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->insertUser()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 13:33:00 --> Invalid file: "form.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/UtilisateurController.php(90): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->insertUser()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 13:33:01 --> Invalid file: "form.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/UtilisateurController.php(90): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->insertUser()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 13:33:01 --> Invalid file: "form.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/UtilisateurController.php(90): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->insertUser()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 13:33:01 --> Invalid file: "form.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/UtilisateurController.php(90): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->insertUser()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 13:33:01 --> Invalid file: "form.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/UtilisateurController.php(90): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->insertUser()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 13:33:02 --> Invalid file: "form.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/UtilisateurController.php(90): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->insertUser()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 13:33:02 --> Invalid file: "form.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/UtilisateurController.php(90): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->insertUser()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 13:33:02 --> Invalid file: "form.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/UtilisateurController.php(90): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->insertUser()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 13:33:03 --> Invalid file: "form.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/UtilisateurController.php(90): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->insertUser()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 13:33:03 --> Invalid file: "form.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/UtilisateurController.php(90): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->insertUser()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 13:33:03 --> Invalid file: "form.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/UtilisateurController.php(90): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->insertUser()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 13:33:03 --> Invalid file: "form.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/UtilisateurController.php(90): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->insertUser()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 13:33:04 --> Invalid file: "form.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/UtilisateurController.php(90): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->insertUser()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 13:33:13 --> Invalid file: "form.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/UtilisateurController.php(90): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->insertUser()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 13:34:20 --> Invalid file: "layouts/layout.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/UtilisateurController.php(90): view()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->insertUser()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 13:34:26 --> Invalid file: "layouts/layout.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/UtilisateurController.php(90): view()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->insertUser()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 13:34:37 --> Invalid file: "layouts/layout.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/UtilisateurController.php(90): view()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->insertUser()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 13:34:37 --> Invalid file: "layouts/layout.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/UtilisateurController.php(90): view()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->insertUser()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 13:34:37 --> Invalid file: "layouts/layout.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/UtilisateurController.php(90): view()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->insertUser()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 13:34:37 --> Invalid file: "layouts/layout.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/UtilisateurController.php(90): view()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->insertUser()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 13:34:38 --> Invalid file: "layouts/layout.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/UtilisateurController.php(90): view()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->insertUser()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 13:34:38 --> Invalid file: "layouts/layout.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/UtilisateurController.php(90): view()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->insertUser()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 13:34:38 --> Invalid file: "layouts/layout.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/UtilisateurController.php(90): view()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->insertUser()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 13:34:38 --> Invalid file: "layouts/layout.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/UtilisateurController.php(90): view()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->insertUser()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 13:34:39 --> Invalid file: "layouts/layout.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/UtilisateurController.php(90): view()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->insertUser()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 13:34:39 --> Invalid file: "layouts/layout.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/UtilisateurController.php(90): view()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->insertUser()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 14:05:38 --> Invalid file: "layouts/layout.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 3 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 4 APPPATH/Controllers/UtilisateurController.php(90): view()
+ 5 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->insertUser()
+ 6 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-12 14:17:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-12 14:17:38 --> Invalid file: "create.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/UtilisateurController.php(10): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->create()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-12 14:27:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-12 14:28:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-12 14:30:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-12 14:32:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-12 14:32:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-12 14:32:46 --> Invalid file: "create.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/UtilisateurController.php(10): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->create()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-12 14:32:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-12 14:32:46 --> Invalid file: "create.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/UtilisateurController.php(10): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->create()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 14:34:01 --> Invalid file: "create.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/UtilisateurController.php(10): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->create()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 14:35:26 --> Invalid file: "create.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/UtilisateurController.php(10): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->create()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 14:36:51 --> Invalid file: "<utilisateur/create>.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/UtilisateurController.php(10): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->create()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 14:36:57 --> Invalid file: "<utilisateur/create>.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/UtilisateurController.php(10): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->create()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 14:39:03 --> Invalid file: "<utilisateur/create>.php"
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/UtilisateurController.php(10): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->create()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-12 14:45:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-12 14:45:38 --> mysqli_sql_exception: Table 'cinema.utilisateurs' doesn't exist in /srv/meziane.local/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /srv/meziane.local/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /srv/meziane.local/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /srv/meziane.local/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /srv/meziane.local/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /srv/meziane.local/system/Validation/StrictRules/Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 /srv/meziane.local/system/Validation/Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique()
+#6 /srv/meziane.local/system/Validation/Validation.php(170): CodeIgniter\Validation\Validation->processRules()
+#7 /srv/meziane.local/app/Controllers/UtilisateurController.php(129): CodeIgniter\Validation\Validation->run()
+#8 /srv/meziane.local/system/CodeIgniter.php(934): App\Controllers\UtilisateurController->store()
+#9 /srv/meziane.local/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 /srv/meziane.local/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 /srv/meziane.local/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-12 14:45:38 --> Table 'cinema.utilisateurs' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Validation/StrictRules/Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/Validation/Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique()
+ 7 SYSTEMPATH/Validation/Validation.php(170): CodeIgniter\Validation\Validation->processRules()
+ 8 APPPATH/Controllers/UtilisateurController.php(129): CodeIgniter\Validation\Validation->run()
+ 9 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->store()
+10 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-12 14:51:45 --> mysqli_sql_exception: Table 'cinema.utilisateurs' doesn't exist in /srv/meziane.local/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /srv/meziane.local/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /srv/meziane.local/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /srv/meziane.local/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /srv/meziane.local/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /srv/meziane.local/system/Validation/StrictRules/Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 /srv/meziane.local/system/Validation/Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique()
+#6 /srv/meziane.local/system/Validation/Validation.php(170): CodeIgniter\Validation\Validation->processRules()
+#7 /srv/meziane.local/app/Controllers/UtilisateurController.php(129): CodeIgniter\Validation\Validation->run()
+#8 /srv/meziane.local/system/CodeIgniter.php(934): App\Controllers\UtilisateurController->store()
+#9 /srv/meziane.local/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 /srv/meziane.local/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 /srv/meziane.local/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-12 14:51:45 --> Table 'cinema.utilisateurs' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Validation/StrictRules/Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/Validation/Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique()
+ 7 SYSTEMPATH/Validation/Validation.php(170): CodeIgniter\Validation\Validation->processRules()
+ 8 APPPATH/Controllers/UtilisateurController.php(129): CodeIgniter\Validation\Validation->run()
+ 9 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->store()
+10 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-12 14:51:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-12 14:52:24 --> mysqli_sql_exception: Table 'cinema.utilisateurs' doesn't exist in /srv/meziane.local/system/Database/MySQLi/Connection.php:295
+Stack trace:
+#0 /srv/meziane.local/system/Database/MySQLi/Connection.php(295): mysqli->query()
+#1 /srv/meziane.local/system/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /srv/meziane.local/system/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /srv/meziane.local/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /srv/meziane.local/system/Validation/StrictRules/Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 /srv/meziane.local/system/Validation/Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique()
+#6 /srv/meziane.local/system/Validation/Validation.php(170): CodeIgniter\Validation\Validation->processRules()
+#7 /srv/meziane.local/app/Controllers/UtilisateurController.php(129): CodeIgniter\Validation\Validation->run()
+#8 /srv/meziane.local/system/CodeIgniter.php(934): App\Controllers\UtilisateurController->store()
+#9 /srv/meziane.local/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 /srv/meziane.local/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 /srv/meziane.local/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-05-12 14:52:24 --> Table 'cinema.utilisateurs' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 295.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(295): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Validation/StrictRules/Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/Validation/Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique()
+ 7 SYSTEMPATH/Validation/Validation.php(170): CodeIgniter\Validation\Validation->processRules()
+ 8 APPPATH/Controllers/UtilisateurController.php(129): CodeIgniter\Validation\Validation->run()
+ 9 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->store()
+10 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-12 14:53:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-12 14:53:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-12 14:53:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-12 14:53:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-12 14:54:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-12 14:54:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-12 14:54:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-12 14:58:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-12 14:58:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-12 14:58:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-12 14:58:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-12 14:58:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-12 14:58:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-12 14:58:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-12 14:58:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-12 14:58:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-12 14:59:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-12 14:59:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-12 15:01:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-12 15:02:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-12 15:02:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-12 15:02:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-12 15:02:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-12 15:10:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-12 15:11:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-12 15:15:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-12 15:16:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-12 15:16:14 --> syntax error, unexpected string content ") ?>">", expecting ")"
+in APPPATH/Views/utilisateur/create.php on line 11.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1184): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/UtilisateurController.php(105): view()
+ 4 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\UtilisateurController->create()
+ 5 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-12 15:40:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-12 15:40:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-12 15:48:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-12 15:53:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-12 15:54:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-12 15:54:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

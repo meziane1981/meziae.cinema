@@ -26,23 +26,58 @@ $routes->set404Override();
  * Route Definitions
  * --------------------------------------------------------------------
  */
-// $routes->get('/', 'HomeController::index');
-// $routes->get('/films', 'FilmsController::index');
-// $routes->get('/artistes', 'ArtistesController::index');
-
 $routes->get('/', 'HomeController::index');
-$routes->get('/artistes', 'ArtistesController::index');
-$routes->get('/artistes/create', 'ArtistesController::create');
-$routes->post('/artistes/create', 'ArtistesController::create');
-$routes->get('/artistes/update/(:num)', 'ArtistesController::update/$1');
-$routes->post('/artistes/update/(:num)', 'ArtistesController::update/$1');
-$routes->get('/artistes/delete/(:num)', 'ArtistesController::delete/$1');
 $routes->get('/films', 'FilmsController::index');
-$routes->get('/films/create', 'FilmsController::create');
-$routes->post('/films/create', 'FilmsController::create');
-$routes->get('/films/edit/(:num)', 'FilmsController::edit/$1');
-$routes->post('/films/edit/(:num)', 'FilmsController::edit/$1');
-$routes->get('/films/delete/(:num)', 'FilmsController::delete/$1');
+$routes->get('/artistes', 'ArtistesController::index');
+
+// $routes->group('utilisateur', function($routes) {
+//     $routes->add('inscription', 'UtilisateurController::create');
+//     $routes->post('inscription', 'UtilisateurController::store');
+//     $routes->add('success', 'UtilisateurController::success');
+// });
+$routes->get('utilisateur/inscription', 'UtilisateurController::create');
+$routes->post('utilisateur/inscription', 'UtilisateurController::store');
+$routes->add('utilisateur/success', 'UtilisateurController::success');
+
+
+//  $routes->get('login', 'AuthController::index2');
+// $routes->post('login', 'AuthController::login');
+// $routes->get('logout', 'AuthController::logout');
+
+// $routes->group('', ['namespace' => 'App\Controllers'], function($routes) {
+//     $routes->get('auth/connexion', 'Auth::index2');
+//     $routes->post('auth/connexion', 'Auth::login');
+//     $routes->get('auth/logout', 'Auth::logout');
+// });
+
+
+$routes->group('', ['namespace' => 'App\Controllers'], function($routes) {
+    $routes->get('auth/connexion', 'AuthController::index2', ['as' => 'auth.connexion']);
+    $routes->post('auth/login', 'AuthController::login', ['as' => 'auth.login']);
+    $routes->get('/', 'HomeController::index');
+    $routes->get('auth/logout', 'AuthController::logout');
+});
+
+
+
+
+
+// $routes->match(['get', 'post'], 'auth/login', 'AuthController::login');
+
+
+// $routes->get('/', 'HomeController::index');
+// $routes->get('/artistes', 'ArtistesController::index');
+// $routes->get('/artistes/create', 'ArtistesController::create');
+// $routes->post('/artistes/create', 'ArtistesController::create');
+// $routes->get('/artistes/update/(:num)', 'ArtistesController::update/$1');
+// $routes->post('/artistes/update/(:num)', 'ArtistesController::update/$1');
+// $routes->get('/artistes/delete/(:num)', 'ArtistesController::delete/$1');
+// $routes->get('/films', 'FilmsController::index');
+// $routes->get('/films/create', 'FilmsController::create');
+// $routes->post('/films/create', 'FilmsController::create');
+// $routes->get('/films/edit/(:num)', 'FilmsController::edit/$1');
+// $routes->post('/films/edit/(:num)', 'FilmsController::edit/$1');
+// $routes->get('/films/delete/(:num)', 'FilmsController::delete/$1');
 
 // $routes->get('/', 'HomeController::index');
 

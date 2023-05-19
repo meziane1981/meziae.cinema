@@ -8,11 +8,11 @@
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css">
 
-	<title>My Website</title>
+	<title>Meziane Cinema</title>
 </head>
 <body>
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		<a class="navbar-brand" href="#">My Website</a>
+		<a class="navbar-brand" href="#">MEZIANE CINEMA</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
@@ -27,6 +27,13 @@
 				<li class="nav-item">
 					<a class="nav-link" href="<?= base_url('artistes') ?>">Artistes</a>
 				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="<?= base_url('utilisateur/inscription') ?>">Inscription</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="<?= base_url('auth/connexion') ?>">connexion</a>
+				</li>
+	
 			</ul>
 		</div>
 	</nav>
