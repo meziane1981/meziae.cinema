@@ -26,18 +26,35 @@ $routes->set404Override();
  * Route Definitions
  * --------------------------------------------------------------------
  */
-$routes->get('/', 'HomeController::index');
-$routes->get('/films', 'FilmsController::index');
-$routes->get('/artistes', 'ArtistesController::index');
+$routes->get('listproduit', 'ProduitController::listproduit');
+$routes->get('ajouteproduit', 'ProduitController::ajouteproduit');
+$routes->post('ajouteproduit', 'ProduitController::insertProduit');
+
+$routes->get('produit/modifierproduit/(:num)', 'ProduitController::modifierproduit/$1');
+$routes->post('produit/modifierproduit/(:num)', 'ProduitController::modifierproduit/$1');
+
+$routes->get('produit/supprimerproduit/(:num)', 'ProduitController::supprimerproduit/$1');
+$routes->post('modifierproduit/(:num)', 'ProduitController::modifierproduit/$1');
+
+
+
+
+
+ // vrais de cenima 
+// $routes->get('/', 'HomeController::index');
+// $routes->get('/films', 'FilmsController::index');
+// $routes->get('/artistes', 'ArtistesController::index');
 
 // $routes->group('utilisateur', function($routes) {
 //     $routes->add('inscription', 'UtilisateurController::create');
 //     $routes->post('inscription', 'UtilisateurController::store');
 //     $routes->add('success', 'UtilisateurController::success');
 // });
-$routes->get('utilisateur/inscription', 'UtilisateurController::create');
-$routes->post('utilisateur/inscription', 'UtilisateurController::store');
-$routes->add('utilisateur/success', 'UtilisateurController::success');
+
+// vrais de cenima 
+// $routes->get('utilisateur/inscription', 'UtilisateurController::create');
+// $routes->post('utilisateur/inscription', 'UtilisateurController::store');
+// $routes->add('utilisateur/success', 'UtilisateurController::success');
 
 
 //  $routes->get('login', 'AuthController::index2');
@@ -50,13 +67,13 @@ $routes->add('utilisateur/success', 'UtilisateurController::success');
 //     $routes->get('auth/logout', 'Auth::logout');
 // });
 
-
-$routes->group('', ['namespace' => 'App\Controllers'], function($routes) {
-    $routes->get('auth/connexion', 'AuthController::index2', ['as' => 'auth.connexion']);
-    $routes->post('auth/login', 'AuthController::login', ['as' => 'auth.login']);
-    $routes->get('/', 'HomeController::index');
-    $routes->get('auth/logout', 'AuthController::logout');
-});
+// vrais de cenima 
+// $routes->group('', ['namespace' => 'App\Controllers'], function($routes) {
+//     $routes->get('auth/connexion', 'AuthController::index2', ['as' => 'auth.connexion']);
+//     $routes->post('auth/login', 'AuthController::login', ['as' => 'auth.login']);
+//     $routes->get('/', 'HomeController::index');
+//     $routes->get('auth/logout', 'AuthController::logout');
+// });
 
 
 
